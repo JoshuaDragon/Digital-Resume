@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital-Resume</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+
+</head>
+<body>
+    <nav id="navbar">
+        <a class="nav-link" href="#Education">Education</a> |
+        <a class="nav-link" href="#Experience">Experience</a> |
+        <a class="nav-link" href="#Skills">Skills</a> |
+        <a class="nav-link" href="#Contacts">Contacts</a>
+    </nav>
+    <header id="heading">
+        <div class="hero-image">
+        <div id="picture">
+          <div class="circular--portrait">
+          <picture>
+            <source srcset="Images/myself1.jpg" media="(max-width: 500px)">
+            <source srcset="Images/myself2.jpg" media="(max-width: 800px)">
+            <img id="headshot" src="Images/myself1.jpg" alt="myself" height="300" width="250"></div>
+          </picture>
+        </div>
+          <div class="hero-text">
+            <h1>Joshua Hinds</h1>
+            <p>Front-End Developer</p>
+          </div>
+        </div>
+      </header>
+<main>
+    <article>
+        <section>
+        <h2 id="Education">Education</h2>
+        <div id="about-content">
+          <h4>Intro to Web at <a href="http://codespace.co.za/">CodeSpace Academy</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h4>Qualification 2</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        </section>
+    
+          <br>
+        
+        <section>
+        <h2 id="Experience">Experience</h2>
+        <div id="about-content">
+          <h4>Job 1</h4>
+          <p></p>
+          <ul>
+            <li>A sentence about the responsibilities of the job</li>
+            <li>A sentence about the responsibilities of the job</li>
+            <li>A sentence about the responsibilities of the job</li>
+            <li>A sentence about the responsibilities of the job</li>
+          </ul>
+          <h4>Job 2</h4>
+          <p></p>
+          <ul>
+            <li>A sentence about the responsibilities of the job</li>
+            <li>A sentence about the responsibilities of the job</li>
+            <li>A sentence about the responsibilities of the job</li>
+            <li>A sentence about the responsibilities of the job</li>
+          </ul>
+        </div>
+        </section>
+          
+          <br>
+    
+        <section>
+        <h2 id="Skills">Skills</h2>
+        <div id="about-content" class="categories">
+            <div class="category">
+                <h4>Skill 1</h4>
+            </div>
+            <div class="category">
+                <h4>Skill 2</h4>
+            </div>
+            <div class="category row-span-2">
+                <h4>Skill 3</h4>
+            </div>
+            <div class="category col-span-2">
+                <h4>Skill 4</h4>
+            </div>
+            <div class="category">
+                <h4>Skill 5</h4>
+            </div>
+            <div class="category">
+                <h4>Skill 6</h4>
+            </div>
+            <div class="category">
+                <h4>Skill 7</h4>
+            </div>
+        </div>
+        </section>  
+    
+    </article>
+</main>
+<footer id="footer">
+    <nav id="footer-links">
+        <a class="nav-link" href="#Education">Education</a> |
+        <a class="nav-link" href="#Experience">Experience</a> |
+        <a class="nav-link" href="#Skills">Skills</a>
+    </nav>
+    <br>
+    <h3 id="Contacts">Contacts:</h3>
+    Tel No: 081 427 2382
+    <ul>
+        <a href="http://whatsapp.com/" target="hindseo2@gmail.com"><img class="icons" id="whatsapp" src="Images/whatsapp.jpg" alt="WhatsApp"></a>
+        <a href="http://mail.google.com/" target="hindseo2@gmail.com"><img class="icons" id="gmail" src="Images/gmailIcon.png" alt="Gmail"></a>
+      </ul>
+      <br>
+
+      <h3 id="Form">Form:</h3>
+      <form action="https://formsubmit.co/hindseo2@gmail.com" method="POST">
+        <p>Subject: <select name="_subject" id="Subject" required>
+            <option value="Resume Feedback">Feedback</option>
+            <option value="Problems">Problems</option>
+            <option value="Other">Other</option>
+        </select></p>
+        <p>Email: <input type="email" name="email" id="" required placeholder="email here"></p>
+
+        <label>About: </label>
+        <textarea name="message" id="text" cols="30" rows="1.9" placeholder="Type here"></textarea>
+
+        <br>
+
+        <input class="submit" type="submit" value="Submit">
+    </form>
+
+</footer>
+
+</body>
+</html>
