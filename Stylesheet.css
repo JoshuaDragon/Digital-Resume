@@ -74,6 +74,8 @@ h2{
     background-color: rgb(7, 7, 71);
     color: rgb(209, 208, 216);
     text-align: center;
+    font-family: Imprint MT Shadow;
+    font-size: 140%;
     margin: 0%;
     padding: 0.3rem;  
 }
@@ -82,6 +84,37 @@ h2{
     margin-left: 40px;
     margin-right: 50px;
     margin-top: 20px;
+}
+
+/* ---- Back to top ---- */
+
+#back-to-top > button{
+    background-color: rgb(10, 54, 150);
+    border-radius: 50%;
+    border: solid 1px rgb(13, 64, 129);
+    width: 50px;
+    height: 50px;
+}
+
+#back-to-top {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+#back-to-top:hover > button {
+    border: solid 1px rgb(42, 8, 235);
+    background-color: rgb(101, 243, 189);   
+}
+
+#back-to-top > button {
+    text-decoration: none;
+    color: rgb(20, 195, 201);
+}
+
+#back-to-top:hover > button {
+    text-decoration: none;
+    color: rgb(42, 8, 235);
 }
 
 /* ===== Category ===== */
@@ -110,12 +143,21 @@ h2{
     padding: 1rem;
 }
 
+ /* Icons */
+
 #whatsapp{
     height: 8ch;
 }
 
 #gmail{
     height: 8ch;
+}
+
+#github{
+    height: 7ch;
+    background-color: white;
+    border-radius: 45%;
+    border: 2px solid white;
 }
 
  /* Submit elements */
@@ -130,6 +172,55 @@ input[type=submit]{
 }
 
 .submit:hover{
-    background-color: cadetblue;
+    background-color: rgb(73, 216, 221);
     color: rgb(246, 244, 248);
 }
+
+ /* Flexbox elements */
+
+.flex-container{
+    width: 117rem;
+    background-color: #3e587e;
+    border-top: 5px solid rgb(93, 230, 218);
+    border-bottom: 5px solid rgb(38, 0, 255);
+    border-left: 5px solid rgb(16, 223, 119);
+    border-right: 5px solid rgb(0, 119, 255);
+}
+
+ /* @media screen */
+
+@media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(136, 182, 209);
+    }
+    section {
+        background-color: rgb(136, 182, 209);
+    }
+  }
+
+@media screen and (min-width: 700px) {
+    body {
+      background-color: rgb(152, 229, 235);
+    }
+    section {
+        background-color: rgb(152, 229, 235);
+    }
+  }
+
+@media screen and (min-width: 900px) {
+    body {
+      background-color: rgb(116, 196, 169);
+    }
+    section {
+        background-color: rgb(116, 196, 169);
+    }
+  }
+
+ @media screen and (min-width: 1100px) {
+    body {
+      background-color: #8cafe4;
+    }
+    section {
+        background-color: #8cafe4;
+    }
+  }
